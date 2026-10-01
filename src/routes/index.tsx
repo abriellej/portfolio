@@ -46,8 +46,8 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Corriente",
-    collection: "Digital Projects",
-    category: "Website for startup",
+    collection: "Web experiences",
+    category: "Live website",
     description: "Explore Corriente below or open the website in a new tab.",
     embedUrl: "https://corriente-azure.vercel.app/",
     tools: [],
@@ -55,7 +55,7 @@ const projects: Project[] = [
   },
   {
     title: "InnoPlasticity — In motion",
-    collection: "Digital Projects",
+    collection: "Web experiences",
     category: "Product video",
     description: "A closer look at InnoPlasticity.",
     // Paste a YouTube/Vimeo embed URL below, or use kind: "file" with /work/video.mp4.
@@ -65,7 +65,7 @@ const projects: Project[] = [
   },
   {
     title: "Money Has a Backend",
-    collection: "Campaigns & Events",
+    collection: "Campaigns & posts",
     category: "Independent workshop concept",
     description:
       "An everyday payment. A world of technology behind it. A proposed fintech careers workshop campaign for AUC Tech Collective.",
@@ -135,7 +135,7 @@ const projects: Project[] = [
   },
   {
     title: "The Founder Chat",
-    collection: "Social Media Posts",
+    collection: "Short-form content",
     thumbnail: {
       src: "/work/the-founder-chat.png",
       alt: "The Founder Chat seven-slide LinkedIn carousel overview",
@@ -421,17 +421,17 @@ function Portfolio() {
                 <span className="serif">Thoughtful about the story.</span>
               </h3>
               <p>
-                I’m a Computer Science major and Economics minor at Spelman College, an innovation researcher currently
-                working with AI and extended reality, and the newly appointed Events Coordinator
-                for AUC Tech Collective.
+                I’m a Computer Science major and Economics minor at Spelman College, a researcher
+                working with AI and extended reality, and the newly appointed Social Media
+                Coordinator for AUC Tech Collective.
               </p>
               <p>
-                My interests sit where technology, business, and communication meet. I want to help
+                My interests sit where technology, fintech, and communication meet. I want to help
                 people understand complex ideas through clear language and thoughtful visuals,
                 bringing a research mindset to the stories I tell.
               </p>
               <p className="about-note">
-                Always learning, building with purpose, and making complex ideas clear.
+                Learning, building, and finding clearer ways to communicate.
               </p>
             </div>
           </div>
