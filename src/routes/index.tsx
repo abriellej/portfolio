@@ -46,7 +46,7 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Corriente",
-    collection: "Web experiences",
+    collection: "Digital Products",
     category: "Live website",
     description: "Explore Corriente below or open the website in a new tab.",
     embedUrl: "https://corriente-azure.vercel.app/",
@@ -55,7 +55,7 @@ const projects: Project[] = [
   },
   {
     title: "InnoPlasticity — In motion",
-    collection: "Web experiences",
+    collection: "Digital Products",
     category: "Product video",
     description: "A closer look at InnoPlasticity.",
     // Paste a YouTube/Vimeo embed URL below, or use kind: "file" with /work/video.mp4.
@@ -65,7 +65,7 @@ const projects: Project[] = [
   },
   {
     title: "Money Has a Backend",
-    collection: "Campaigns & posts",
+    collection: "Campaigns & Events",
     category: "Independent workshop concept",
     description:
       "An everyday payment. A world of technology behind it. A proposed fintech careers workshop campaign for AUC Tech Collective.",
@@ -135,7 +135,7 @@ const projects: Project[] = [
   },
   {
     title: "The Founder Chat",
-    collection: "Short-form content",
+    collection: "Social Media Posts",
     thumbnail: {
       src: "/work/the-founder-chat.png",
       alt: "The Founder Chat seven-slide LinkedIn carousel overview",
@@ -176,7 +176,7 @@ function Portfolio() {
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const collections = useMemo(
     () =>
-      ["Short-form content", "Campaigns & posts", "Product storytelling", "Web experiences"].map((title) => ({
+      ["Social Media Posts", "Campaigns & Events", "Product storytelling", "Digital Products"].map((title) => ({
         title,
         projects: projects.filter((project) => project.collection === title),
       })),
@@ -422,11 +422,11 @@ function Portfolio() {
               </h3>
               <p>
                 I’m a Computer Science major and Economics minor at Spelman College, a researcher
-                working with AI and extended reality, and the newly appointed Social Media
+                working with AI and extended reality, and the newly appointed Events
                 Coordinator for AUC Tech Collective.
               </p>
               <p>
-                My interests sit where technology, fintech, and communication meet. I want to help
+                My interests sit where technology, business, and communication meet. I want to help
                 people understand complex ideas through clear language and thoughtful visuals,
                 bringing a research mindset to the stories I tell.
               </p>
