@@ -58,8 +58,7 @@ const projects: Project[] = [
     collection: "Digital Products",
     category: "Product video",
     description: "A closer look at InnoPlasticity.",
-    // Paste a YouTube/Vimeo embed URL below, or use kind: "file" with /work/video.mp4.
-    video: { src: "", kind: "embed" },
+    video: { src: "/work/innoplasticity-video.mp4", kind: "file" },
     tools: [],
     images: [],
   },
